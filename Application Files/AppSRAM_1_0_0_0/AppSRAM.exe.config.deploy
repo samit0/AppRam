@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="AppSRAM.Properties.Settings.Conexion" connectionString="Data Source=PCHOME\SQLEXPRESS;Initial Catalog=DBRam;Persist Security Info=True;User ID=sam;Password=sa;TrustServerCertificate=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+	<appSettings>
+		<add key="ApisPeruToken" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InNhbXFqMDdAZ21haWwuY29tIiwianRpIjoiNTZiZDE0NmU3NWYxMWY1YyJ9.e8By1zhcbtbAi3qtLap1NYqNWkl_Sz1cjoI_esO30QM" />
+	</appSettings>
+	<startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+</configuration>
